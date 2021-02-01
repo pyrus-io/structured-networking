@@ -14,10 +14,11 @@ let networking = Networking(
 LoginEndpoint(body: LoginRequestBody(useername: "me", password: "something"))
 	.execute(with: networking)
 	.sink { (completion) in
-       // error checking
-   } receiveValue: { (response: AuthResponse) in
-       print(response)
-   }
+       		// error checking
+        } 
+        receiveValue: { (response: AuthResponse) in
+	       print(response)
+        }
 ```
 
 
