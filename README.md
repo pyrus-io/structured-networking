@@ -50,7 +50,7 @@ public struct LoginEndpoint: APIRequest {
 
 #### Accompanying endpoint structures
 
-```
+```swift
 public struct LoginRequestBody: Codable {
     public var password: String
     public var username: String
