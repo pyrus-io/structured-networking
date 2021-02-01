@@ -4,7 +4,7 @@ Strongly typed networking built on top of Combine
 
 #### What the API looks like
 
-```
+```swift
 let networking = Networking(
     baseURLStringProvider: { (request) -> String in
         return "http://exampleapi.com"
